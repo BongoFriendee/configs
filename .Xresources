@@ -6,7 +6,7 @@ URxvt.scrollBar: false
 URxvt.letterSpace: 1
 !URxvt.font:     xft:terminus:size=9:antialias=true                              
 URxvt*cursorColor:#839496               
-!! Act more like XTerm :-)              
+!! Act more like XTerm               
 URxvt*termName:               xterm-256color                                    
 !! Normal           
 URxvt*keysym.Home:            \033OH    

@@ -84,10 +84,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="/usr/bin/vim"
+alias l='ls -lah'
+alias di='dig +short'
 
-
-EMU="-r$HOME/inferno/inferno -c0 -g1024x768"
-export TERM=xterm
-
+export TERM='screen-256color'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export "FZF_DEFAULT_OPTS=--reverse --height 40%"
